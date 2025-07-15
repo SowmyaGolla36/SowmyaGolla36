@@ -1,110 +1,429 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, intial-scale=1.0">
-<title>Gardening|sowmya</title>
-<link rel="stylesheet" href="garden.css">
-<link rel="stylesheet" href="garden mobile.css">
-<link rel="stylesheet" href="garden tab.css" >
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <meta charset="UTF-8">
+  <title>Bootstrap Navbar with Icons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CDN for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="nav">
-<i class="fa-sharp fa-solid fa-house"></i>
-<a href="index1.html">Flowers</a>
-<a href="index2.html">Fruits</a>
-<a href="index3.html">Vegtables</a>
-<a href="index4.html">Garden Nest</a>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container-fluid">
+   <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item d-flex align-items-center me-3 text-white">
+          <i class="fas fa-phone-alt me-1"></i> +91 9876543210
+        </li>
+        <li class="nav-item d-flex align-items-center me-3 text-white">
+          <i class="fab fa-whatsapp me-1"></i> WhatsApp
+        </li>
+        <li class="nav-item d-flex align-items-center text-white">
+          <i class="fas fa-envelope me-1"></i> support@Bazodo.com
+        </li>
+      </ul>
+    </div>
+</nav>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img src="https://bazodo.com/images/logo.webp"  alt="boostrap" width="30" height="24"/>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Seeds</a></li>
+            <li><a class="dropdown-item" href="#">Grow BAg</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Plastic Pots</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">About</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+       
+<!-- Navbar End -->
+ <div class="container-fluid">
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.bazodo.com/images/slides/b2f61308a2fad88fa482b0c07532ba815e23db38_bada7ba6645e36ee47776f8a051250895f94f6e5_1.jpg" class="d-block w-100" alt="boostrap">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.bazodo.com/images/slides/80cc6495818d05a9429217834feae0d117ca33ec_886f10bb5efb75749bc8f0c6cd6332dee7f43860_2.jpeg" class="d-block w-100" alt="boostrap">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.bazodo.com/images/slides/cadbb53d34874c857aa115329293bf9d4c976acb_d8c86cb8a778a9de426893dbfb4fd1fc7652fa0c_3.jpeg"d-flex" role="search">
+       </div>
+  </div>
+  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-success" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-success" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-<div class="image1">
-<div class="thought">
-<h1>"A Garden is a Friend<br>
- You Can Visit <br>
-Anytime."</h1></div></div>
-<div class="title">Different Types Of Gardening</div>
-<div class="Flowers">
-<div class="flower"><img src="https://thumbs.dreamstime.com/b/indian-village-flower-valley-yellow-oregeng-marigold-vally-orange-garden-beautiful-lots-flowers-173333776.jpg" width="250px" height="250px"/>
-<div class="img">Flowers Gardening</div></div>
-<div class="flower"><img src="https://kellogggarden.com/wp-content/uploads/2020/04/Orange-Tree.jpg" width="250px" height="250px"/>
-<div class="img">Fruits Gardening</div></div>
-<div class="flower"><img src="https://cdn.pixabay.com/photo/2019/09/23/06/49/vegetable-garden-4497701_960_720.jpg" width="250px" height="250px"/>
-<div class="img">Vegetables Gardening</div></div>
-<div class="flower"><img src="https://img.freepik.com/premium-photo/woman-s-hand-puts-seeds-plant-ground-help-it-grow-protect-it-concept-caring-plants-growing-organic-products_255667-25597.jpg" width="250px" height="250px"/>
-<div class="img">Seeds Gardening</div></div>
-<div class="flower"><img src="https://grangettos.com/cdn/shop/articles/shutterstock_353942729_2000x.jpg?v=1618439884" width="250px" height="250px"/>
-<div class="img"> Farming</div></div>
 </div>
-<div class="Flowers1">
-<div class="flower"><img src="https://bonnieplants.com/cdn/shop/articles/mature-in-ground-garden_web_v2_0419d9ac-ea3f-4a67-bff2-7c1b6b69c975.jpg?v=1642541564" width="250px" height="250px"/>
-<div class="img">In-ground Gardening</div></div>
-<div class="flower"><img src="https://images.ctfassets.net/zma7thmmcinb/46uTx162kk1F2Uub1Qihtr/b9e8828c15ff58cff01893945a9a127c/rooftop-garden-pv.jpg" width="250px" height="250px"/>
-<div class="img">Container Gardening </div></div>
-<div class="flower"><img src="https://www.allthatgrows.in/cdn/shop/articles/Feat_Image-Raised_1100x1100.jpg?v=1713871487" width="250px" height="250px"/>
-<div class="img">Raised Gardening</div></div>
-<div class="flower"><img src="https://cdn.shopify.com/s/files/1/0573/3993/6868/t/6/assets/gardening-with-limited-space-1669228876233.jpg?v=1669228877" width="250px" height="250px"/>
-<div class="img">Vertical Gardening</div></div>
-<div class="flower"><img src="https://img.sunset02.com/sites/default/files/styles/marquee_large_2x/public/image/gardenindoors2.jpg" width="250px" height="250px"/>
-<div class="img">Indoor Gardening</div></div>
+<div class="container ">
+    <div class="text-success text-center py-2">
+   <h2>Explore Our Collection</h2>
 </div>
+</div>
+<div class="container py-5">
+<div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+      <div class="col text-center">
+        <img src="https://www.kanzandmuhul.com/cdn/shop/products/packof5seeds.png?v=1637936532" class="img-fluid " alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">Seeds</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://organicbazar.net/cdn/shop/files/grow_bags_24x6_pack_of_2_grow_bags_24x6_inch_grow_bags_leafy_grow_bags_plant_bags_planters_green_grow_bags_hdpe_grow_bags_grow_bag_growbags_organic_bazar_grow_bags_for_green_leafy_gro.jpg?v=1751284743" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">Grow Bags</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://cdn.dotpe.in/longtail/store-items/6330104/Gk1kjluU.jpeg" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">Pots & Plastic</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://img.freepik.com/premium-photo/close-up-sunflower-against-white-background_1048944-7741546.jpg?semt=ais_hybrid&w=740" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">Flower Seeds</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://i0.wp.com/textilelearner.net/wp-content/uploads/2014/01/decorative-coir-products.jpg?resize=450%2C315&ssl=1" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary ">Coir Products</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/9/341528408/JM/MW/CD/160973034/organic-fertilizer-500x500.webp" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">Oraganic Bio Fertilizer</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://img.freepik.com/premium-vector/set-realistic-clay-pots_15242-36.jpg" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">pots</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://www.oak-barrel.com/catalogue/images/dandys-organic-manure-bulk-bag-1000litres.jpg" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">Bulk Suply-Organic</p>
+      </div>
+      <div class="col text-center">
+        <img src="https://www.jiomart.com/images/product/original/rvqjbyznqj/farmgokart-vegetable-seed-combo-12-varieties-4300-seeds-wveg-02-product-images-orvqjbyznqj-p597703260-0-202304132045.png?im=Resize=(420,420)" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary">Vegetable Seeds</p>
+      </div>
+      <div class="col text-center ">
+        <img src="https://png.pngtree.com/background/20230611/original/pngtree-picture-of-gardening-tools-picture-image_3137826.jpg" class="img-fluid" alt="boostrap">
+        <p class="mt-2 fw-semibold text-primary"> Tools Collection</p>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5 p-4 bg-light rounded">
+  <!-- Badge and Heading -->
+  <span class="badge rounded-pill text-bg-success mb-2">🔍 Transparent Pricing Promise</span>
+  <h2 class="fw-bold">See Exactly What You Pay For</h2>
+  <p class="text-secondary">
+    Unlike some stores, we don't inflate our product prices to cover "free" shipping. You see the actual cost of each gardening product and choose your preferred delivery option at checkout.
+  </p>
+
+  <div class="row">
+    <!-- Left Text Section -->
+    <div class="col-md-6">
+      <ul class="list-unstyled">
+        <li class="mb-3">
+          ✅ <strong>See the Real Product Price</strong><br>
+          <small class="text-secondary">Know exactly what you're paying for each gardening item or tool.</small>
+        </li>
+        <li class="mb-3">
+          🚚 <strong>Choose Your Shipping</strong><br>
+          <small class="text-secondary">Select the delivery partner and speed that fits your gardening needs and budget.</small>
+        </li>
+        <li class="mb-3">
+          💸 <strong>Potentially Lower Overall Cost</strong><br>
+          <small class="text-secondary">For local or lighter orders, you might save money compared to inflated prices.</small>
+        </li>
+      </ul>
+
+      <!-- Buttons -->
+      <div class="d-flex gap-3">
+        <a href="#" class="btn btn-success">Learn About Our Shipping Policy</a>
+        <a href="#" class="btn btn-outline-success">See Our Delivery Options</a>
+      </div>
+    </div>
+
+    <!-- Right Comparison Boxes -->
+    <div class="col-md-6 mt-4 mt-md-0">
+      <div class="row g-3">
+        <!-- Transparent Pricing Box -->
+        <div class="col-md-6">
+          <div class="border rounded p-3 bg-white">
+            <h6 class="text-center">Our Transparent Pricing</h6>
+            <hr>
+            <p class="text-center mb-1">Garden Trowel</p>
+            <h5 class="text-center text-success">₹100</h5>
+            <p class="text-center text-muted">+ Shipping from ₹40</p>
+            <p class="text-center small text-secondary">You see exactly what you're paying for</p>
+          </div>
+        </div>
+
+        <!-- Free Shipping Model Box -->
+        <div class="col-md-6">
+          <div class="border rounded p-3 bg-white">
+            <h6 class="text-center">"Free" Shipping Model</h6>
+            <hr>
+            <p class="text-center mb-1">Garden Trowel</p>
+            <h5 class="text-center text-success">₹170</h5>
+            <p class="text-center text-muted"><s>+ Shipping</s> FREE*</p>
+            <p class="text-center small text-secondary">*Shipping cost hidden in product price</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <br/><br/>
+      <div class="container bg-light">
+  <div class="mb-2 text-success text-center">
+    <h1>Featured Products</h1>
+  </div>
+
+  <!-- Wrap all cards inside one container -->
+  <div class="container g-3 mt-5 m-20">
+    <div class="row justify-content-center g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header bg-primary text-white text-center">
+            Featured
+          </div>
+          <div class="text-center">
+            <img src="https://farmhousetvm.com/wp-content/uploads/2019/10/new-61.png" class="card-img-bottom" alt="Product Image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-primary">Grow Bag</h5>
+            <p class="card-text">09 X 12 Inch (Dia X Height) HDPE Grow Bag (Round) - 220 GSM - Multipack: Pack of 1</p>
+            <div class="d-flex align-items-center">
+              <div class="me-2 text-warning">★★★★☆</div>
+              <div class="text-danger"><span class="text-muted">80% Rating</span></div>
+            </div>
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-success">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header bg-primary text-white text-center">
+            Featured
+          </div>
+          <div class="text-center">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSibr5kr_E_IrllmtLloOsfnJq6MwsEp9ZLur3SfyDMrikIQdbePQXrt3atQICyayLPT2KTaFIvocHQZSGM4bmZ94RcSXCBEJcZdctB1d4M4QGpjyS-eUbp" class="card-img-bottom" alt="Product Image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-primary">Pots & Plastic</h5>
+            <p class="card-text">KEYKIN Plastic Round Flower Pots for Home Planters, Terrace, Garden Etc (Pack of
+Typically ₹299–₹349)</p>
+            <div class="d-flex align-items-center">
+              <div class="me-2 text-warning">★★★★☆</div>
+              <div class="text-danger"><span class="text-muted">75% Rating</span></div>
+            </div>
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-success">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <!--------card 3 ----->
+<div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header bg-primary text-white text-center">
+            Featured
+          </div>
+          <div class="text-center">
+            <img src="https://m.media-amazon.com/images/I/51Ta1Mm-JmL._UF1000,1000_QL80_.jpg" class="card-img-bottom" alt="Product Image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-primary"></h5>
+            <p class="card-text">Fish Amino Acid Fertilizer 1 Liter | Organic Plant Growth Booster | Enhances Root Development and Soil Health Can be used in Home</p>
+             <div class="d-flex align-items-center">
+              <div class="me-2 text-warning">★★★★☆</div>
+              <div class="text-danger"><span class="text-muted">80% Rating</span></div>
+            </div>
+          </div>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-success">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <div class="container-fluid text-center my-5">
+  <!-- Heading -->
+  <h2 class="fw-bold">Find Us on Your <span class="text-success">Favorite Platforms</span></h2>
+  <p>Shop our products across multiple platforms where we maintain our quality standards</p>
+
+  <!-- Card Row -->
+  <div class="row justify-content-center mt-4 g-4">
+    
+    <!-- Google Store Card -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow">
+        <div class="card-body">
+          <img src="https://www.gstatic.com/images/branding/product/1x/googleg_64dp.png" width="40" alt="Google">
+          <div class="mt-3">
+            <span class="text-warning">★★★★☆</span>
+            <span class="fw-bold">4.2</span> <small>(100)</small>
+          </div>
+          <a href="#" class="btn btn-success rounded-pill mt-3">Visit Our Google Store</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Amazon Store Card -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow">
+        <div class="card-body">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968529.png" width="40" alt="Amazon">
+          <div class="mt-3">
+            <span class="text-warning">★★★★☆</span>
+            <span class="fw-bold">4.0</span> <small>(87)</small>
+          </div>
+          <a href="#" class="btn btn-success rounded-pill mt-3">Visit Our Amazon Store</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meesho Store Card -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow">
+        <div class="card-body">
+          <h5 class="text-purple fw-bold">meesho</h5>
+          <div class="mt-3">
+            <span class="text-warning">★★★★☆</span>
+            <span class="fw-bold">4.1</span> <small>(3909)</small>
+          </div>
+          <a href="#" class="btn btn-success rounded-pill mt-3">Visit Our Meesho Store</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+    <div class="container-fluid text-center text-success bg">
+  <h3>ABOUT BAZODO</h3>
+  <div class="text-dark text-center">
+  <p> We manufacture HDPE Rectangle Plant Bags, Rectangular Roof Top Green Grow Bags, Vermi Beds, Azolla beds, Selling Bio Organic Fertilizers and Pesticides, Drain cell, Seedling trays, Plastic Pots, and Entire Terrace and Gardening Materials. </p>
+</div>
+</div>
+<div>
 <br/><br/>
-<div class="text">
-<div class="title"><h2>Benefits of Gardening</h2></div>
-</div><br/><br/>
-<div class="grid-Container">
-<div> 1.Physical Benefits</div>
-<div>2.Mental Health</div>
-<div>3.Nutritional</div>
-<div>4.Social & Community</div>
-<div>5.Environmental</div>
-</div>
-<br/></br>
-<div class="one">
-<div class="bigbox">
-<div class="sowmya">
-<img class="image" src="https://images.unsplash.com/photo-1621460248083-6271cc4437a8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FyZGVuaW5nfGVufDB8fDB8fHww" width="100%" height="150px"/></div>
-<div class="text"><h3><p>Gardening Tips</p></h3><br/>
-<p><font color="blue">1.Watering Wisely</p>
-<p>2.Use Organic Fertilizers</p>
-<p>3.Container Gardening</font></p>
-</div></div>
-<div class="big box"> 
-<div class="sowmya">
-<img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKQ_gDW2RybGNGi9v06IBltPBujRtGNkopy_4X-KftoPbree1nt_bvfnCrIpuxwwD69o&usqp=CAU" width="100%" height="150px"/></div>
-<div class="text"><h3><p>Sustainability Tips</p></h3><br/>
-<p><font color="blue">1.Reduce Plastic Use</p>
-<p>2.Composting</p>
-<p>3.Recycle and Reduce</font></p>
-</div></div>
-<div class="big box">
-<div class="sowmya">
-<img class="image" src="https://www.palasa.co.in/cdn/shop/files/PLANT_CARE_MOBILE_VIEW.png?v=1714049150&width=1100" width="100%" height="150px"/></div>
-<div class="text"><h3><p>Plant Care Guides</p></h3><br/>
-<p><font color="blue">1.Tulsi(Holy Basil)</p>
-<p>2.Curry Leaf Plant</p>
-<p>3.Aloe Vera</font></p>
-</div></div>
-<div class="big box">
-<div class="sowmya">
-<img class="image" src="https://m.media-amazon.com/images/I/917UM-2pA4L.png" width="100%" height="150px"/></div>
-<div class="text"><h3><p>DIY Gardening Video Ideas</p></h3><br/>
-<p><font color="blue">1.Plastic Bottle Planters</p>
-<p>2.Hanging planters</p>
-<p>3.Indoor LED Plant  lighting</font></p>
-</div>
-</div>
-<div class="big box">
-<div class="sowmya">
-<img class="image" src="https://www.contentcreatortemplates.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fi6rxbmuh%2Fproduction%2Fda75853cd944076f784c16241026f57a846d13fe-2598x1298.png&w=3840&q=100" width="100%" height="150px"/></div>
-<div class="text"><h3><p>YouTube Channels(For Reference) </p></h3><br/>
-<p><font color="blue">1.Urban Gardening</p>
-<p>2.Balcony Garden</p>
-<p>3.Home Garden In India</font></p>
-</div>
-</div>
-</div>
-<div class="FollowUs"><div class="us"><p>Follow Us</p><br/>
-<p><i class="fa-brands fa-instagram"></i> &nbsp;&nbsp;<i class="fa-brands fa-youtube"></i>&nbsp;&nbsp; <i class="fa-brands fa-facebook"></i>&nbsp;&nbsp; <i class="fa-brands fa-whatsapp"></i> &nbsp;&nbsp;<i class="fa-solid fa-message"></i></p></div>
-</div>
+<!-- Footer Section -->
+<footer class="bg-light text-dark pt-5 pb-4">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Logo & Contact -->
+      <div class="col-md-3">
+        <h4 class="fw-bold text-success">Bazodo</h4>
+        <p class="mt-3">Sign up for exclusive offers, original stories, events and more.</p>
+        <div class="d-flex mb-3">
+          <input type="email" class="form-control" placeholder="Enter Email">
+          <button class="btn btn-link ms-2">&#8594;</button>
+        </div>
+        <p class="mb-1 fw-semibold">Contact us</p>
+        <p class="mb-1">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="20" style="vertical-align: middle;"> info@bazodo.in
+        </p>
+        <p>
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="20" style="vertical-align: middle;"> +91 9903504754
+        </p>
+      </div> 
+      <!-- Top Categories -->
+      <div class="col-md-2">
+        <h6 class="fw-semibold mb-3">INFORMATION</h6>
+        <ul class="list-unstyled">
+         <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">About Us</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Deliverable Location</a>
+        </li>
+          </li>
+           <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Gift Cards & Promo Codes</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Frequently Asked Questions</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Guest Order Tracking</a>
+        </li> 
+           </ul>
+      </div>
+
+      <!-- Decor -->
+      <div class="col-md-2">
+        <h6 class="fw-semibold mb-3">POLICIES</h6>
+        <ul class="list-unstyled">
+           <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Shipping policy</a>
+        </li> 
+         <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Privacy Policy</a>
+        </li> 
+         <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Terms And Conditions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Return and Refund Policy</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Delivery Guidelines</a>
+        </li>  
+        </ul>
+      </div>
+ <!-- Bottom Row -->
+ <div class="row mt-4">
+      <div class="col-md-6">
+        <p class="text-muted small">© 2025 BAZODO™. All Rights Reserved.</p>
+      </div>
+      <div class="col-md-6 text-end">
+        <p class="small mb-0">We Accept:
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-solid fa-camera"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-whatsapp"></i>
+          and more..
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
